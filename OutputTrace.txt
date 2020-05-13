@@ -1,0 +1,60 @@
+
+OVERALL VALIDATION RESULT: PASSED
+
+Mar 21, 2020 8:35:21 PM view.ConsoleLoggerCallback addPlayer
+INFO: Added Player id=P1, name=Player One, points=1000, No Bet, Empty Hand
+Mar 21, 2020 8:35:21 PM view.ConsoleLoggerCallback addPlayer
+INFO: Added Player id=P2, name=Player Two, points=2000, No Bet, Empty Hand
+Mar 21, 2020 8:35:21 PM view.ConsoleLoggerCallback addPlayer
+INFO: Added Player id=P3, name=Player Three, points=3000, No Bet, Empty Hand
+Mar 21, 2020 8:35:21 PM view.ConsoleLoggerCallback addPlayer
+INFO: Added Player id=X4, name=Player Four, points=4000, No Bet, Empty Hand
+Mar 21, 2020 8:35:21 PM view.ConsoleLoggerCallback removePlayer
+INFO: Removed Player id=X4, name=Player Four, points=4000, No Bet, Empty Hand
+Mar 21, 2020 8:35:21 PM view.ConsoleLoggerCallback betUpdated
+INFO: Bet updated for P1 to Score Bet for 100
+Mar 21, 2020 8:35:21 PM view.ConsoleLoggerCallback betUpdated
+INFO: Bet updated for P2 to Suit Bet for 100 on Clubs
+Mar 21, 2020 8:35:21 PM view.ConsoleLoggerCallback newDeck
+INFO: A new deck of cards was created with 52 cards
+Mar 21, 2020 8:35:22 PM view.ConsoleLoggerCallback playerCard
+FINE: Player P2 dealt Ace of Clubs
+Mar 21, 2020 8:35:22 PM view.ConsoleLoggerCallback playerCard
+FINE: Player P2 dealt 6 of Hearts
+Mar 21, 2020 8:35:23 PM view.ConsoleLoggerCallback playerCard
+FINE: Player P2 dealt Jack of Clubs
+Mar 21, 2020 8:35:23 PM view.ConsoleLoggerCallback playerBust
+FINE: Player P2 bust on 5 of Clubs
+Mar 21, 2020 8:35:23 PM view.ConsoleLoggerCallback playerBust
+INFO: Player P2 score is 17
+Mar 21, 2020 8:35:24 PM view.ConsoleLoggerCallback playerCard
+FINE: Player P1 dealt Queen of Spades
+Mar 21, 2020 8:35:24 PM view.ConsoleLoggerCallback playerCard
+FINE: Player P1 dealt 10 of Diamonds
+Mar 21, 2020 8:35:25 PM view.ConsoleLoggerCallback playerBust
+FINE: Player P1 bust on Ace of Spades
+Mar 21, 2020 8:35:25 PM view.ConsoleLoggerCallback playerBust
+INFO: Player P1 score is 20
+Mar 21, 2020 8:35:25 PM view.ConsoleLoggerCallback houseCard
+FINE: House dealt Queen of Clubs
+Mar 21, 2020 8:35:26 PM view.ConsoleLoggerCallback houseCard
+FINE: House dealt King of Spades
+Mar 21, 2020 8:35:26 PM view.ConsoleLoggerCallback houseBust
+FINE: House bust on 8 of Spades
+Mar 21, 2020 8:35:26 PM view.ConsoleLoggerCallback houseBust
+INFO: House Hand: Hand of 2 cards [Queen of Clubs, King of Spades] Score: 20
+Mar 21, 2020 8:35:26 PM view.ConsoleLoggerCallback houseBust
+INFO: Final Results:
+Player id=P1, name=Player One, points=900, Score Bet for 100, Hand of 2 cards [Queen of Spades, 10 of Diamonds] Score: 20
+Player: P1         Player One          Draw       0
+Player id=P2, name=Player Two, points=2300, Suit Bet for 100 on Clubs, Hand of 3 cards [Ace of Clubs, 6 of Hearts, Jack of Clubs] Score: 17
+Player: P2         Player Two          Player Win     400
+Player id=P3, name=Player Three, points=3000, No Bet, Empty Hand
+Player: P3         Player Three        No Bet
+
+Mar 21, 2020 8:35:26 PM view.ConsoleLoggerCallback betUpdated
+INFO: Bet updated for P1 to No Bet
+Mar 21, 2020 8:35:26 PM view.ConsoleLoggerCallback betUpdated
+INFO: Bet updated for P2 to No Bet
+Mar 21, 2020 8:35:26 PM view.ConsoleLoggerCallback betUpdated
+INFO: Bet updated for P3 to No Bet
